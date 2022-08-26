@@ -87,8 +87,8 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(
-  `       .service-card, .icons,
-          details, .box, .btn, .paragraph`,
+  `       .service-card,
+          details, .box, .animation`,
   {
     interval: 100,
   }

@@ -679,3 +679,6 @@ header .icons #menu-bars {
   margin-top: 0.5rem;
 }
 /* orders */
+.swiper-pagination-horizontal {
+  margin: 3rem auto !important;
+}
