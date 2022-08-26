@@ -77,3 +77,19 @@ function fadeOut() {
 }
 
 window.onload = fadeOut;
+
+// Scroll Reveal
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+  reset: true,
+});
+
+sr.reveal(
+  `       .service-card, .icons,
+          details, .box, .btn, .paragraph`,
+  {
+    interval: 100,
+  }
+);
