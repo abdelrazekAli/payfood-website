@@ -51,7 +51,9 @@ section {
 section:nth-child(odd) {
   background: #f7f7f7;
 }
-
+.transform-none {
+  text-transform: none;
+}
 .sub-heading {
   font-family: "Satisfy", cursive;
   text-align: center;
